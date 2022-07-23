@@ -1,0 +1,22 @@
+{
+  "files": {
+    "app.js": "/whack-a-mole/static/js/app.c96f2dee.chunk.js",
+    "app.js.map": "/whack-a-mole/static/js/app.c96f2dee.chunk.js.map",
+    "runtime~app.js": "/whack-a-mole/static/js/runtime~app.116e0dad.js",
+    "runtime~app.js.map": "/whack-a-mole/static/js/runtime~app.116e0dad.js.map",
+    "static/js/2.4aa26b45.chunk.js": "/whack-a-mole/static/js/2.4aa26b45.chunk.js",
+    "static/js/2.4aa26b45.chunk.js.map": "/whack-a-mole/static/js/2.4aa26b45.chunk.js.map",
+    "favicon-16.png": "/whack-a-mole/favicon-16.png",
+    "favicon-32.png": "/whack-a-mole/favicon-32.png",
+    "favicon.ico": "/whack-a-mole/favicon.ico",
+    "index.html": "/whack-a-mole/index.html",
+    "manifest.json": "/whack-a-mole/manifest.json",
+    "serve.json": "/whack-a-mole/serve.json",
+    "static/js/2.4aa26b45.chunk.js.LICENSE.txt": "/whack-a-mole/static/js/2.4aa26b45.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.116e0dad.js",
+    "static/js/2.4aa26b45.chunk.js",
+    "static/js/app.c96f2dee.chunk.js"
+  ]
+}
