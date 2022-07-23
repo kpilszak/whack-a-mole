@@ -1,22 +1,12 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import GameBoard from './components/GameBoard.js'
+import { Provider } from 'react-redux'
+import store from './redux/store'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Whack a mole app</Text>
-      <View>
-        <Square></Square>
-      </View>
-    </View>
+    <Provider store={store}>
+      <GameBoard />
+    </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
