@@ -1,8 +1,11 @@
 {
   "name": "whack-a-mole",
   "version": "1.0.0",
+  "homepage": "https://kpilszak.github.io/whack-a-mole",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "predeploy": "expo build:web",
+    "deploy": "gh-pages -d web-build",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -20,7 +23,9 @@
     "redux": "^4.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "gh-pages": "^4.0.0",
+    "react-scripts": "^5.0.1"
   },
   "private": true
 }
